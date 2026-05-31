@@ -447,6 +447,7 @@ section {
 .lang-dot.java    { background: #e07b00; }
 .lang-dot.csharp  { background: #178600; }
 .lang-dot.js      { background: #f1e05a; }
+.lang-dot.ts      { background: #3178c6; }
 .lang-dot.python  { background: #3572a5; }
 .lang-dot.html    { background: #e44b23; }
 

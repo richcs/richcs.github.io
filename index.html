@@ -3,7 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Richard Lei — Software Developer</title>
+  <title>Richard Lei — Backend Software Developer</title>
+  <meta name="description" content="Richard Lei — backend software developer specializing in Java and Spring Boot. Building REST APIs, event-driven services, and the data layers behind them." />
+  <meta name="author" content="Richard Lei" />
+  <meta name="theme-color" content="#0d0d12" />
+  <link rel="canonical" href="https://richcs.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Richard Lei — Backend Software Developer" />
+  <meta property="og:description" content="Backend developer specializing in Java &amp; Spring Boot — REST APIs, event-driven services, and the data layers behind them." />
+  <meta property="og:url" content="https://richcs.github.io/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Richard Lei — Backend Software Developer" />
+  <meta name="twitter:description" content="Backend developer specializing in Java &amp; Spring Boot — REST APIs, event-driven services, and the data layers behind them." />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -28,11 +44,12 @@
     <div class="hero-content">
       <p class="hero-greeting">Hi, I'm</p>
       <h1 class="hero-name">Richard Lei</h1>
-      <h2 class="hero-title">Software Developer</h2>
-      <p class="hero-sub">I build clean, functional software — from terminal tools to full-stack web apps.</p>
+      <h2 class="hero-title">Backend Software Developer</h2>
+      <p class="hero-sub">I build robust backend systems — Java &amp; Spring Boot APIs, event-driven services, and the data layers behind them.</p>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View My Work</a>
         <a href="https://github.com/richcs" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        <a href="https://ca.linkedin.com/in/richardleics" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
       </div>
     </div>
     <div class="hero-bg">
@@ -46,8 +63,8 @@
       <h2 class="section-title">About Me</h2>
       <div class="about-grid">
         <div class="about-text">
-          <p>I'm a software developer based in Canada with a passion for building things that are both useful and well-crafted. I enjoy working across the stack — from Rust CLIs to Spring Boot APIs to JavaScript frontends.</p>
-          <p>When I'm not coding, I'm probably tinkering with side projects, exploring new languages, or solving puzzles.</p>
+          <p>I'm a backend developer based in Canada, focused on building server-side systems that are reliable, well-structured, and built to scale. I work primarily in Java and Spring Boot — designing REST APIs, event-driven services, and the data layers that back them.</p>
+          <p>I hold a B.Sc. in Computer Science from McGill University (2016–2020). When I'm not coding, I'm probably tinkering with side projects, digging into distributed systems, or solving puzzles.</p>
           <a href="https://github.com/richcs" target="_blank" rel="noopener" class="btn btn-outline">View GitHub Profile</a>
         </div>
         <div class="about-stats">
@@ -75,38 +92,38 @@
       <p class="section-sub">A selection of things I've built.</p>
       <div class="projects-grid">
 
-        <a class="project-card featured" href="https://github.com/richcs/spotifycli" target="_blank" rel="noopener">
+        <a class="project-card featured" href="https://github.com/richcs/cardstream" target="_blank" rel="noopener">
           <div class="project-header">
-            <span class="project-icon">🎵</span>
+            <span class="project-icon" aria-hidden="true">📈</span>
             <div class="project-links">
               <span class="badge">Featured</span>
-              <span class="stars">★ 2</span>
             </div>
           </div>
-          <h3>spotifycli</h3>
-          <p>Play Spotify from the comfort of your terminal. A fully-featured CLI built in Rust for controlling Spotify playback without leaving the command line.</p>
+          <h3>cardstream</h3>
+          <p>An event-driven platform that ingests TCG marketplace listings and sales to derive live market intelligence — prices, moving averages, volatility, and arbitrage spike alerts — powered by Kafka Streams.</p>
           <div class="project-tags">
-            <span class="tag">Rust</span>
-            <span class="tag">CLI</span>
-            <span class="tag">Spotify API</span>
+            <span class="tag">Java</span>
+            <span class="tag">Kafka Streams</span>
+            <span class="tag">Event-Driven</span>
           </div>
         </a>
 
-        <a class="project-card" href="https://github.com/richcs/pokecardle" target="_blank" rel="noopener">
+        <a class="project-card" href="https://github.com/richcs/agenticket" target="_blank" rel="noopener">
           <div class="project-header">
-            <span class="project-icon">🎮</span>
+            <span class="project-icon" aria-hidden="true">🎫</span>
           </div>
-          <h3>pokecardle</h3>
-          <p>A Pokémon-themed Wordle-style guessing game. Guess the Pokémon card from clues — a fun twist on the viral word game format.</p>
+          <h3>agenticket</h3>
+          <p>An AI-powered support ticket system. Customer emails become tickets that are auto-classified, summarised, and answered — high-confidence replies auto-send, the rest route to a human review queue.</p>
           <div class="project-tags">
-            <span class="tag">JavaScript</span>
-            <span class="tag">Game</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">React</span>
+            <span class="tag">AI</span>
           </div>
         </a>
 
         <a class="project-card" href="https://github.com/richcs/spring-api-store" target="_blank" rel="noopener">
           <div class="project-header">
-            <span class="project-icon">🛒</span>
+            <span class="project-icon" aria-hidden="true">🛒</span>
           </div>
           <h3>spring-api-store</h3>
           <p>A full-featured e-commerce store REST API built with Spring Boot — handling products, inventory, and order management.</p>
@@ -117,39 +134,41 @@
           </div>
         </a>
 
+        <a class="project-card" href="https://github.com/richcs/spotifycli" target="_blank" rel="noopener">
+          <div class="project-header">
+            <span class="project-icon" aria-hidden="true">🎵</span>
+          </div>
+          <h3>spotifycli</h3>
+          <p>Play Spotify from the comfort of your terminal. A fully-featured CLI built in Rust for controlling Spotify playback without leaving the command line.</p>
+          <div class="project-tags">
+            <span class="tag">Rust</span>
+            <span class="tag">CLI</span>
+            <span class="tag">Spotify API</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/richcs/expense-tracker" target="_blank" rel="noopener">
+          <div class="project-header">
+            <span class="project-icon" aria-hidden="true">💸</span>
+          </div>
+          <h3>expense-tracker</h3>
+          <p>A personal finance tracker built with React 19 and Vite. Log income and expenses by category, filter month-by-month, and visualize spending with an interactive pie chart.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Vite</span>
+            <span class="tag">Recharts</span>
+          </div>
+        </a>
+
         <a class="project-card" href="https://github.com/richcs/pipsqueak-url" target="_blank" rel="noopener">
           <div class="project-header">
-            <span class="project-icon">🔗</span>
+            <span class="project-icon" aria-hidden="true">🔗</span>
           </div>
           <h3>pipsqueak-url</h3>
           <p>A lightweight URL shortener web app built with Python — create short links and track redirects with a clean interface.</p>
           <div class="project-tags">
             <span class="tag">Python</span>
             <span class="tag">Web</span>
-          </div>
-        </a>
-
-        <a class="project-card" href="https://github.com/richcs/ChatChat" target="_blank" rel="noopener">
-          <div class="project-header">
-            <span class="project-icon">💬</span>
-          </div>
-          <h3>ChatChat</h3>
-          <p>Developing one paw at a time — a chat application project with a focus on clean UI design and real-time messaging.</p>
-          <div class="project-tags">
-            <span class="tag">CSS</span>
-            <span class="tag">Chat</span>
-          </div>
-        </a>
-
-        <a class="project-card" href="https://github.com/richcs/foodtrack" target="_blank" rel="noopener">
-          <div class="project-header">
-            <span class="project-icon">🥗</span>
-          </div>
-          <h3>foodtrack</h3>
-          <p>A calorie counter and food tracking web app — log meals, track macros, and monitor your daily nutritional intake.</p>
-          <div class="project-tags">
-            <span class="tag">HTML</span>
-            <span class="tag">Web App</span>
           </div>
         </a>
 
@@ -169,11 +188,12 @@
         <div class="skill-group">
           <h3>Languages</h3>
           <ul>
-            <li><span class="lang-dot rust"></span>Rust</li>
             <li><span class="lang-dot java"></span>Java</li>
-            <li><span class="lang-dot csharp"></span>C#</li>
-            <li><span class="lang-dot js"></span>JavaScript</li>
             <li><span class="lang-dot python"></span>Python</li>
+            <li><span class="lang-dot csharp"></span>C#</li>
+            <li><span class="lang-dot rust"></span>Rust</li>
+            <li><span class="lang-dot ts"></span>TypeScript</li>
+            <li><span class="lang-dot js"></span>JavaScript</li>
             <li><span class="lang-dot html"></span>HTML / CSS</li>
           </ul>
         </div>
@@ -181,19 +201,24 @@
           <h3>Frameworks & Tools</h3>
           <ul>
             <li>Spring Boot</li>
-            <li>.NET / ASP.NET</li>
+            <li>Spring Data / JPA</li>
             <li>REST APIs</li>
+            <li>Kafka</li>
+            <li>PostgreSQL</li>
+            <li>Docker</li>
+            <li>.NET / ASP.NET</li>
             <li>Git / GitHub</li>
-            <li>Jenkins / CI</li>
+            <li>React / Vite</li>
+            <li>Node.js / Express</li>
           </ul>
         </div>
         <div class="skill-group">
           <h3>Interests</h3>
           <ul>
-            <li>Systems Programming</li>
             <li>Backend Architecture</li>
-            <li>Developer Tooling</li>
-            <li>Open Source</li>
+            <li>Event-Driven Systems</li>
+            <li>Distributed Systems</li>
+            <li>API Design</li>
           </ul>
         </div>
       </div>
@@ -207,11 +232,15 @@
       <p class="contact-sub">I'm always open to new opportunities, collaborations, or just a chat. Feel free to reach out.</p>
       <div class="contact-links">
         <a href="https://github.com/richcs" target="_blank" rel="noopener" class="contact-card">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
           GitHub
         </a>
+        <a href="https://ca.linkedin.com/in/richardleics" target="_blank" rel="noopener" class="contact-card">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          LinkedIn
+        </a>
         <a href="mailto:richardlei.cs@gmail.com" class="contact-card">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
           Email
         </a>
       </div>
